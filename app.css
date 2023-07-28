@@ -1,0 +1,65 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #495057;
+    color: white
+}
+
+#mainNavBar {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#mainNavBar .nav-link:hover {
+    color: #c1121f;
+}
+
+#mainNavBar .dropdown-item:hover {
+    color: #c1121f;
+}
+
+#mainNavBar button {
+    border-color: #c1121f;
+    color: #c1121f;
+}
+
+#mainNavBar button:hover {
+    color: white;
+    background-color: #c1121f;
+}
+
+/* #mainNavBar .navbar-toggler-icon {
+    border-color: black;
+} */
+
+@media (max-width: 1200px) {
+    body {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 800px) {
+    body {
+        font-size: 1.0rem;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+}
+
+h2 {
+    padding-top: 2rem;
+}
+
+.carousel-item {
+    width: 100%;
+}
+
+.carousel-item-active {
+    width: 100%;
+}
